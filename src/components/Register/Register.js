@@ -23,7 +23,7 @@ class Register extends Component {
     }
 
     onSubmitSignIn = () => {
-        fetch('https://blooming-earth-30936.herokuapp.com/register', {
+        fetch('https://ismart-brain.herokuapp.com/register', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
